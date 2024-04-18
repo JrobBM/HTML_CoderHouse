@@ -1,0 +1,35 @@
+/*Caracteristicas basicas y generales del header (todas las paginas)*/
+
+.superior{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    font-style:normal;
+    text-align: center;
+    font-size: 50px;
+    color:color-mix(in srgb-linear,orange 50%,red 40%);
+
+    background: url("../assets/imagenes/general/encabezado.jpg");
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*Caracteristicas particulares del header por pagina*/
+
+    .p {
+        text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+    }
+    .r {
+        text-shadow: 3px 3px 0 red, -3px 3px 0 red, -3px -3px 0 red, 3px -3px 0 red;
+    }
+    .e {
+        text-shadow: 3px 3px 0 #3F2305, -3px 3px 0 #3F2305, -3px -3px 0 #3F2305, 3px -3px 0 #3F2305;
+    }
+    .g {
+        text-shadow: 3px 3px 0 rgb(1, 95, 1), -3px 3px 0 rgb(1, 95, 1), -3px -3px 0 rgb(1, 95, 1), 3px -3px 0 rgb(1, 95, 1);
+    }
+    .a {
+        text-shadow: 3px 3px 0 gray, -3px 3px 0 gray, -3px -3px 0 gray, 3px -3px 0 gray;
+    }
+}

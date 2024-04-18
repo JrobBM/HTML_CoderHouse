@@ -1,0 +1,68 @@
+    /*###########################################*/        
+
+    /*Pagina Estructuras*/
+
+    /*###########################################*/    
+
+.desplazo{
+    display: inline-flex;
+    position: absolute;
+    top: 110px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 50px;
+    img{
+        height: 200px;
+        padding: 15px;
+        border: 10px solid rgb(99, 21, 21);
+        margin: 10px;
+    }
+}
+    /*###########################################*/    
+
+.desplazador{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    position: absolute;
+    bottom: 110px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 80px;
+    justify-content: center;
+    margin-left: 50px;
+    img{
+        height: 60px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-size: contain;
+    }
+    .flecha1{
+        background:none;
+        &:hover{
+            background-image:url(../assets/imagenes/estructuras/izquierda.png);
+        }
+    }
+    .flecha2{
+        background:none;
+        &:hover{
+            background-image:url(../assets/imagenes/estructuras/derecha.png);
+        }
+    }
+    img:hover{
+        height: 60px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-image: url(../assets/imagenes/estructuras/activo.png);
+        background-size: contain;
+    }
+}

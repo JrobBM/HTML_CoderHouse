@@ -1,0 +1,105 @@
+    /**********************************************/
+
+    /*Pagina Redstone Responsive */
+
+    /*###########################################*/    
+
+
+    @media(max-width:1024px){
+
+        .centro {
+            background-color: rgba(0, 255, 255, 0.712);
+            p{
+                font-size: 12;
+            }
+        }
+    }
+    /*----------------------------------------------------*/
+    
+    @media(max-width:768px){
+    
+        .enlaces { 
+            display: flex;
+            right: 35%;
+            img{
+                height: 50px;
+            }
+        }
+        
+        .centro {
+            display:grid;
+            grid-template-areas: "na1" "na2";
+            justify-items: center;
+            background-color: rgba(0, 255, 21, 0.274);
+            gap: 5px;
+            height: 230px;
+            img{
+                grid-area: na1;
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                top: 230px;
+            }
+            p{
+                grid-area: na2;
+                font-size: 12px;
+            }
+        }
+    }
+    /*-------------------------------------------*/
+    
+    @media(max-width:425px){
+        
+        .enlaces { 
+            display:flex;
+            right: 35%;
+            img{
+                height: 50px;
+            }
+        }
+        
+        .centro {
+            right: 0px;
+            display:grid;
+            grid-template-areas: "na1" "na2";
+            justify-items: center;
+            background-color: rgba(0, 255, 21, 0.274);
+            gap: 5px;
+            height: 250px;
+            margin-right: 0px;
+            margin-left: 150px;
+            top: 150px;
+            img{
+                grid-area: na1;
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                top: 190px;
+            }
+            p{
+                grid-area: na2;
+                font-size: 10px;
+            }
+        }
+            /*###########################################*/    
+        
+        .barra{
+            display:block;
+            position:fixed;
+            top: 110px;
+            left: 0px;
+            background: url(../assets/plantillas/marco.png);
+            background-color: rgba(0, 162, 255, 0.274);  
+            width: 80px;
+            height: 320px;
+            justify-items: center;
+            margin-left: 50px;
+            img{
+                height: 40px;
+                align-items: center;
+                margin-top: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }

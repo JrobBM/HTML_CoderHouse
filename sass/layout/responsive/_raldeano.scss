@@ -1,0 +1,119 @@
+    /**********************************************/
+
+    /*Pagina Redstone Responsive */
+
+    /*###########################################*/    
+
+
+    @media(max-width:1024px){
+
+        .marco {
+            background-color: rgba(30, 255, 0, 0.712);
+        }
+    }
+    /*----------------------------------------------------*/
+    
+    @media(max-width:768px){
+    
+        .enlaces { 
+            display: flex;
+            right: 35%;
+            img{
+                height: 50px;
+            }
+        }
+        
+        .aldeano {
+            align-self: center;
+            right: 150px;
+            height: 50px;
+            img{
+                height: 80px;
+            }
+            p{
+                font-size: 12;
+                color:rgb(128, 0, 128);
+            }
+        }
+        
+
+        .marco {
+            visibility: visible;
+            position: relative;
+            left: 200px;
+            top: 200px;
+            width: 210px;
+            display:grid;
+            grid-template-areas: "na1" "na1";
+            justify-content: center;
+            background-color: rgba(0, 255, 21, 0.274);
+            gap: 5px;
+            height: 140px;
+            img{
+                grid-area: na1;
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                top: 230px;
+            }
+            p{
+                grid-area: na2;
+                font-size: 12px;
+            }
+        }
+
+        
+    .apartados{
+        bottom: 110px;
+        img{
+            height: 80px;
+            align-items: center;
+        }
+    }
+}
+
+    /*-------------------------------------------*/
+    
+    @media(max-width:425px){
+    
+        .enlaces { 
+            display: flex;
+            right: 25%;
+            img{
+                height: 40px;
+            }
+        }
+        
+
+        .aldeano {
+            display: grid;
+            position:relative;
+            top: 100px;
+            right: 15px;
+            height: 50px;
+            margin-left: 50px;
+            img{
+                justify-self: center;
+                height: 150px;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 10;
+            }
+        }    
+
+    .marco {
+        visibility: hidden;
+    }
+
+        
+    .apartados{
+        bottom: 110px;
+        img{
+            height: 50px;
+            align-items: center;
+        }
+    }
+}

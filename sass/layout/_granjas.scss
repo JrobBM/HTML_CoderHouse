@@ -1,0 +1,104 @@
+        /*###########################################*/    
+
+    /*Pagina Granjas*/
+
+        /*###########################################*/    
+    .narradora{
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 135px;
+        justify-content: right;
+        img{
+            height: 185px;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            width: 250px;
+            @include fuente_1;
+            font-size: 14;
+            height: 100px;
+            color:white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    /*###########################################*/    
+    
+    .narrador{
+        display: flex;
+        position: absolute;
+        top: 95px;
+        justify-content: center;
+        img{
+            height: 185px;
+            transform: rotatey(180deg);
+        }
+        p{
+            display: flex;
+            align-items: center;
+            width: 200px;
+            @include fuente_1;
+            font-size: 14;
+            height: 100px;
+            color:white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    /*###########################################*/    
+    
+    .construccion{
+        display: flex;
+        position: absolute;
+        top: 400px;
+        justify-content: center;
+        img{
+            height: 200px;
+        }
+    }
+
+    /*###########################################*/    
+    
+    .diseño{
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 370px;
+        justify-content: right;
+        right: 20px;
+        img{
+            height: 100px;
+        }
+        .map{
+            height: 50px;
+        }
+    }
+
+    /*###########################################*/    
+    
+    .recursos{
+        display: flex;
+        position: absolute;
+        top: 120px;
+        left: 550px;
+        img{
+            height: 150px;
+        }
+        .rock{
+            height: 95px;
+        }
+    }
+
+            /*###########################################*/
+    
+    .mons{
+        display: flex;
+        position: relative;
+        height: 250px;
+        justify-content: center;
+        top: 100px;
+    }

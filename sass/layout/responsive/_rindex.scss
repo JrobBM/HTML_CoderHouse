@@ -1,0 +1,195 @@
+    /**********************************************/
+
+    /*Pagina Index Responsive*/
+
+    /*###########################################*/    
+
+    @media(max-width:1024px){
+        .p{
+            text-shadow: 3px 3px 0 rgb(56, 55, 55), -3px 3px 0 rgb(56, 55, 55), -3px -3px 0 rgb(56, 55, 55), 3px -3px 0 rgb(56, 55, 55);
+        }
+    }
+    
+    @media(max-width:768px){
+        /*aqui segun mi esperado en figma cambiaria el texto en las "p1*" por los titulos pero eso aun no lo hemos visto asi que asi lo deje */
+        .enlaces { 
+            display:flex;
+            right: 35%;
+            img{
+                height: 50px;
+            }
+        }
+        .superior{
+            font-size: 30px;
+        }
+        
+        .p1r{
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            p{
+                font-size: 10px;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+            /**********************************************/
+        .p1e {
+            top: 60px;
+            justify-content: right;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            p{
+                font-size: 10px;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+        
+            /**********************************************/
+        .p1g {
+            top: 40px;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            p{
+                font-size: 10px;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+            /**********************************************/
+        .p1a {
+            top: 0px;
+            justify-content: right;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            p{
+                font-size: 10px;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    /*-------------------------------------------------------------------------*/
+    @media(max-width:425px){
+        .enlaces { 
+            display:flex;
+            right: 35%;
+            img{
+                height: 50px;
+            }
+        }
+        .p1r {
+            display: block;
+            justify-content: center;
+            top: 110px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            p{
+                font-size: 10;
+                background-image: url(../assets/imagenes/general/Piepag.jpg);
+                background-size:contain;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+            /**********************************************/
+        .p1e {
+            display: block;
+            justify-content: center;
+            top: 80px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            p{
+                font-size: 10;
+                background-image: url(../assets/imagenes/general/Piepag.jpg);
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+        
+            /**********************************************/
+        .p1g {
+            display: block;
+            justify-content: center;
+            top: 110px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            p{
+                font-size: 10;
+                background-image: url(../assets/imagenes/general/Piepag.jpg);
+                background-size:contain;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+            /**********************************************/
+        .p1a {
+            display: block;
+            justify-content: center;
+            top: 110px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            p{
+                font-size: 10;
+                background-image: url(../assets/imagenes/general/Piepag.jpg);
+                background-size:contain;
+            }
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }

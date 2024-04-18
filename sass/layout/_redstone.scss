@@ -1,0 +1,54 @@
+    /*###########################################*/    
+
+    /*Pagina Redstone*/
+
+    /*###########################################*/    
+
+    .centro {
+        display: inline-flex;
+        position: relative;
+        top: 225px;
+        background: url(../assets/plantillas/marco.png);
+        background-color: rgba(0, 255, 255, 0.274);
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 15px;
+        img{
+            width: 300px;
+            height: 250px;
+            margin: 20px;
+        }
+        p{
+            align-self: center;
+            @include fuente_1;
+            text-align: left;
+            font-size: 14;
+            width: 50%;
+            height: 100px;
+            color:white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    
+        /*###########################################*/    
+    
+    .barra{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        position: absolute;
+        top: 110px;
+        background: url(../assets/plantillas/marco.png);
+        background-color: rgba(255, 187, 0, 0.274);  
+        width: 93%;
+        height: 80px;
+        justify-items: center;
+        margin-left: 50px;
+        img{
+            height: 60px;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
