@@ -17,19 +17,19 @@
 /*----------------------------------------------------------------------------------------------------------------*/
 /*Caracteristicas particulares del header por pagina*/
 
-    .p {
+    .p_principal {
         text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
     }
-    .r {
+    .p_redstone {
         text-shadow: 3px 3px 0 red, -3px 3px 0 red, -3px -3px 0 red, 3px -3px 0 red;
     }
-    .e {
+    .p_estructuras {
         text-shadow: 3px 3px 0 #3F2305, -3px 3px 0 #3F2305, -3px -3px 0 #3F2305, 3px -3px 0 #3F2305;
     }
-    .g {
+    .p_granjas {
         text-shadow: 3px 3px 0 rgb(1, 95, 1), -3px 3px 0 rgb(1, 95, 1), -3px -3px 0 rgb(1, 95, 1), 3px -3px 0 rgb(1, 95, 1);
     }
-    .a {
+    .p_aldeanos {
         text-shadow: 3px 3px 0 gray, -3px 3px 0 gray, -3px -3px 0 gray, 3px -3px 0 gray;
     }
 }

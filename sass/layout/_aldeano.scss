@@ -65,25 +65,25 @@
         }
     }
 
-    .a1{
+    .bases{
         background-image: url(../assets/imagenes/aldeanos/Bed.png);
         &:hover{
             background-size: 150%;
             }
     }
-    .a2{
+    .profesiones{
         background-image: url(../assets/imagenes/aldeanos/Crafting_Table.png);
         &:hover{
             background-size: 150%;
             }
     }
-    .a3{
+    .comercio{
         background-image: url(../assets/imagenes/aldeanos/Trader.png);
         &:hover{
             background-size: 120%;
             }
     }
-    .a4{
+    .otros{
         background-image: url(../assets/imagenes/aldeanos/Witch.png);
         &:hover{
             background-size: 120%;

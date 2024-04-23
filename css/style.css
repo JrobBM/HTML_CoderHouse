@@ -42,15 +42,15 @@
   background: url("../assets/imagenes/general/encabezado.jpg");
   /*----------------------------------------------------------------------------------------------------------------*/
   /*Caracteristicas particulares del header por pagina*/ }
-  .superior .p {
+  .superior .p_principal {
     text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black; }
-  .superior .r {
+  .superior .p_redstone {
     text-shadow: 3px 3px 0 red, -3px 3px 0 red, -3px -3px 0 red, 3px -3px 0 red; }
-  .superior .e {
+  .superior .p_estructuras {
     text-shadow: 3px 3px 0 #3F2305, -3px 3px 0 #3F2305, -3px -3px 0 #3F2305, 3px -3px 0 #3F2305; }
-  .superior .g {
+  .superior .p_granjas {
     text-shadow: 3px 3px 0 #015f01, -3px 3px 0 #015f01, -3px -3px 0 #015f01, 3px -3px 0 #015f01; }
-  .superior .a {
+  .superior .p_aldeanos {
     text-shadow: 3px 3px 0 gray, -3px 3px 0 gray, -3px -3px 0 gray, 3px -3px 0 gray; }
 
 /*Caracteristicas basicas y generales del footer (todas las paginas)*/
@@ -82,14 +82,14 @@
 /*###########################################*/
 /*Pagina Index*/
 /**********************************************/
-.p1r {
+.p1redstone {
   display: inline-flex;
   position: relative;
   top: 110px; }
-  .p1r img {
+  .p1redstone img {
     width: 100px;
     height: 100px; }
-  .p1r p {
+  .p1redstone p {
     font-family: "Irish Grover", system-ui;
     font-weight: 1000;
     text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
@@ -100,21 +100,21 @@
     height: 100px;
     color: white;
     margin-top: 32px; }
-  .p1r a img {
+  .p1redstone a img {
     width: 50px;
     height: 50px;
     margin-top: 25px; }
 
 /**********************************************/
-.p1e {
+.p1estructuras {
   display: inline-flex;
   position: relative;
   top: 110px;
   justify-content: right; }
-  .p1e img {
+  .p1estructuras img {
     width: 100px;
     height: 100px; }
-  .p1e p {
+  .p1estructuras p {
     font-family: "Irish Grover", system-ui;
     font-weight: 1000;
     text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
@@ -126,20 +126,20 @@
     height: 100px;
     color: white;
     margin-top: 32px; }
-  .p1e a img {
+  .p1estructuras a img {
     width: 50px;
     height: 50px;
     margin-top: 25px; }
 
 /**********************************************/
-.p1g {
+.p1granjas {
   display: inline-flex;
   position: relative;
   top: 110px; }
-  .p1g img {
+  .p1granjas img {
     width: 100px;
     height: 100px; }
-  .p1g p {
+  .p1granjas p {
     font-family: "Irish Grover", system-ui;
     font-weight: 1000;
     text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
@@ -150,21 +150,21 @@
     height: 100px;
     color: white;
     margin-top: 32px; }
-  .p1g a img {
+  .p1granjas a img {
     width: 50px;
     height: 50px;
     margin-top: 25px; }
 
 /**********************************************/
-.p1a {
+.p1aldeano {
   display: inline-flex;
   position: relative;
   top: 110px;
   justify-content: right; }
-  .p1a img {
+  .p1aldeano img {
     width: 100px;
     height: 100px; }
-  .p1a p {
+  .p1aldeano p {
     font-family: "Irish Grover", system-ui;
     font-weight: 1000;
     text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
@@ -175,7 +175,7 @@
     height: 100px;
     color: white;
     margin-top: 32px; }
-  .p1a a img {
+  .p1aldeano a img {
     width: 50px;
     height: 50px;
     margin-top: 25px; }
@@ -440,24 +440,24 @@
     background-repeat: no-repeat;
     background-position: center; }
 
-.a1 {
+.bases {
   background-image: url(../assets/imagenes/aldeanos/Bed.png); }
-  .a1:hover {
+  .bases:hover {
     background-size: 150%; }
 
-.a2 {
+.profesiones {
   background-image: url(../assets/imagenes/aldeanos/Crafting_Table.png); }
-  .a2:hover {
+  .profesiones:hover {
     background-size: 150%; }
 
-.a3 {
+.comercio {
   background-image: url(../assets/imagenes/aldeanos/Trader.png); }
-  .a3:hover {
+  .comercio:hover {
     background-size: 120%; }
 
-.a4 {
+.otros {
   background-image: url(../assets/imagenes/aldeanos/Witch.png); }
-  .a4:hover {
+  .otros:hover {
     background-size: 120%; }
 
 /*Layout responsive*/
