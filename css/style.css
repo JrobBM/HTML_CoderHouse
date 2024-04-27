@@ -390,9 +390,15 @@
     background-image: url(../assets/imagenes/estructuras/activo.png);
     background-size: contain; }
 
+.ficha {
+  visibility: hidden; }
+
 /*###########################################*/
 /*Pagina Granjas*/
 /*###########################################*/
+.centro1 {
+  visibility: hidden; }
+
 .narradora {
   width: 100%;
   display: flex;
@@ -777,7 +783,7 @@
       margin-right: 20px; } }
 
 /**********************************************/
-/*Pagina Redstone Responsive */
+/*Pagina Aldeano Responsive */
 /*###########################################*/
 @media (max-width: 1024px) {
   .marco {
@@ -856,6 +862,242 @@
       height: 50px;
       align-items: center; } }
 
+/**********************************************/
+/*Pagina Granjas Responsive */
+/*###########################################*/
+@media (max-width: 1024px) {
+  .centro1 {
+    visibility: hidden; }
+  .narradora p {
+    color: #040279; }
+  .narrador p {
+    color: #040279; } }
+
+/*----------------------------------------------------*/
+@media (max-width: 768px) {
+  .enlaces {
+    display: flex;
+    right: 35%; }
+    .enlaces img {
+      height: 50px; }
+  /*###########################################*/
+  .centro1 {
+    visibility: hidden; }
+  .construccion {
+    display: flex;
+    position: fixed;
+    top: 310px;
+    right: 0px; }
+    .construccion img {
+      height: 140px; }
+  /*###########################################*/
+  .diseño {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 330px;
+    right: 160px; }
+  /*###########################################*/
+  .recursos {
+    display: flex;
+    position: fixed;
+    top: 310px;
+    left: 25px;
+    transform: rotateY(180deg); }
+    .recursos img {
+      height: 120px; }
+    .recursos .rock {
+      height: 85px; }
+  /*###########################################*/
+  .mons {
+    visibility: hidden; } }
+
+/*-------------------------------------------*/
+@media (max-width: 425px) {
+  .centro1 {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 250px;
+    bottom: 150px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    gap: 5px;
+    height: 300px;
+    margin-right: 0px;
+    margin-left: 150px; }
+    .centro1 img {
+      width: 90%;
+      height: 50%;
+      margin: 10px;
+      top: 190px;
+      margin: 10px;
+      padding: 10px;
+      background-color: rgba(49, 19, 1, 0.664); }
+    .centro1 p {
+      font-family: "Irish Grover", system-ui;
+      font-weight: 1000;
+      text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+      font-style: normal;
+      text-align: center;
+      font-weight: 1000;
+      text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+      font-style: normal;
+      text-align: justify;
+      font-size: 12px;
+      color: white;
+      margin: 10px;
+      padding: 10px;
+      background-color: rgba(2, 136, 31, 0.507); }
+  .narradora {
+    visibility: hidden; }
+  /*###########################################*/
+  .narrador {
+    visibility: hidden; }
+  /*###########################################*/
+  .construccion {
+    display: flex;
+    position: fixed;
+    top: 350px;
+    left: 0px;
+    justify-content: left; }
+    .construccion img {
+      height: 100px; }
+  /*###########################################*/
+  .diseño {
+    display: flex;
+    position: fixed;
+    top: 250px;
+    left: 15px;
+    justify-content: left;
+    right: 20px; }
+    .diseño img {
+      height: 70px; }
+    .diseño .map {
+      height: 30px; }
+  /*###########################################*/
+  .recursos {
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 0px; }
+    .recursos img {
+      height: 100px; }
+    .recursos .rock {
+      height: 65px; }
+  /*###########################################*/
+  .mons {
+    visibility: hidden; } }
+
+/*###########################################*/
+/*Pagina Estructuras Responsive*/
+/*###########################################*/
+@media (max-width: 1024px) {
+  .desplazo img {
+    border: 10px solid #1e118f; } }
+
+@media (max-width: 768px) {
+  .desplazo {
+    display: grid;
+    grid-template-areas: "na1 na2 na3" "na4 na4 na4" "na5 na6 na7";
+    width: 90%;
+    height: 60%;
+    margin: 20px;
+    top: 95px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274); }
+    .desplazo img {
+      height: 100px;
+      padding: 15px;
+      background-image: url(/assets/plantillas/plantilla1.png); }
+    .desplazo:nth-child(1) {
+      grid-area: na1; }
+    .desplazo:nth-child(2) {
+      grid-area: na2; }
+    .desplazo:nth-child(3) {
+      grid-area: na3; }
+    .desplazo .ficha {
+      visibility: visible;
+      grid-area: na4;
+      justify-content: center;
+      display: inline-flex; }
+      .desplazo .ficha img {
+        border: 10px solid rgba(119, 59, 3, 0.534); }
+      .desplazo .ficha p {
+        padding: 10px;
+        border: 10px solid rgba(119, 59, 3, 0.534);
+        font-family: "Irish Grover", system-ui;
+        font-weight: 1000;
+        text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+        font-style: normal;
+        text-align: center;
+        font-size: 10px;
+        color: white; }
+    .desplazo:nth-child(5) {
+      grid-area: na5; }
+    .desplazo:nth-child(6) {
+      grid-area: na6; }
+    .desplazo:nth-child(7) {
+      grid-area: na7; }
+  .desplazador {
+    visibility: hidden; } }
+
+@media (max-width: 425px) {
+  .desplazo {
+    display: grid;
+    grid-template-areas: "na4 na4 na4 na4 na4 na4" "na4 na4 na4 na4 na4 na4" "na1 na2 na3 na5 an6 na7";
+    grid-template-rows: 2fr 1fr;
+    width: 90%;
+    height: 60%;
+    margin: 20px;
+    top: 95px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274); }
+    .desplazo img {
+      height: 60px;
+      padding: 15px;
+      background-image: url(/assets/plantillas/plantilla1.png); }
+    .desplazo:nth-child(1) {
+      grid-area: na1; }
+    .desplazo:nth-child(2) {
+      grid-area: na2; }
+    .desplazo:nth-child(3) {
+      grid-area: na3; }
+    .desplazo .ficha {
+      visibility: visible;
+      grid-area: na4;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      margin-left: 90px;
+      margin-right: 90px; }
+      .desplazo .ficha img {
+        border: 10px solid rgba(119, 59, 3, 0.534);
+        height: 100px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto; }
+      .desplazo .ficha p {
+        padding: 10px;
+        border: 10px solid rgba(119, 59, 3, 0.534);
+        font-family: "Irish Grover", system-ui;
+        font-weight: 1000;
+        text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+        font-style: normal;
+        text-align: center;
+        font-size: 10px;
+        color: white; }
+    .desplazo:nth-child(5) {
+      grid-area: na5; }
+    .desplazo:nth-child(6) {
+      grid-area: na6; }
+    .desplazo:nth-child(7) {
+      grid-area: na7; }
+  .desplazador {
+    visibility: hidden; } }
+
+/*###########################################*/
 /*Componentes*/
 /*----------*/
 /*--------------------------------------------------------------------------------*/
